@@ -1,8 +1,8 @@
 .resume-container{
-    background-image: url('../../media/images/resumeBG.jpg');
+    /* background-image: url('../../media/images/resumeBG.jpg'); */
     /* height: 800px; */
     /* width: 100%; */
-    background-size: cover;
+    /* background-size: cover; */
 }
 .resume-middle{
     background-color: rgb(166, 147, 211);

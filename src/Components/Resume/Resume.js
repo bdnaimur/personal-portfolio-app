@@ -39,21 +39,62 @@ const Resume = () => {
                     </div>
                     <div className="col-md-6 working-section">
                         <div className="inner-div shadow ms-3 p-3">
-                        <h4 className="darkGreen">Working Exprience</h4>
-                        <div className="experience-1">
-                            <h6 className="color">Year 2016-2017</h6>
-                            <p>Worked as a junior assistant in New Paltan Computers</p>
+                            <h4 className="darkGreen text-center"><FontAwesomeIcon className="color" icon="hashtag" /> Working Exprience</h4>
+                            <div className="experience-1">
+                                <h6 className="color">Year 2016-2017</h6>
+                                <p>Worked as a junior assistant in New Paltan Computers</p>
+                            </div>
+                            <div className="experience-2">
+                                <h6 className="color">Year 2018-Till Date</h6>
+                                <p>Working as a Pricirng Analyst in Biman Bangladesh Airlines</p>
+                            </div>
                         </div>
-                        <div className="experience-2">
-                            <h6 className="color">Year 2018-Till Date</h6>
-                            <p>Working as a Pricirng Analyst in Biman Bangladesh Airlines</p>
+                    </div>
+
+                </div>
+                <div className="row">
+                    <div className="col-md-6 ">
+                        <div className="inner-div shadow mt-5 p-2">
+                        <h4 className=" darkGreen text-center"> <FontAwesomeIcon className="color" icon="hashtag" /> Education</h4>
+                        <div className="education-1">
+                            <h6>Masters</h6>
+                            <p>Managemnet, Year: 2016, Result: 1st Class</p>
+                        </div>
+                        <div className="education-2">
+                            <h6>Bachelor</h6>
+                            <p>Managemnet, Year: 2014, Result: 1st Class</p>
                         </div>
                         </div>
                     </div>
-                    
+
+                    <div className="col-md-6 working-section">
+                        <div className="inner-div shadow ms-3 p-3">
+                            <h4 className=" darkGreen text-center"><FontAwesomeIcon className="color" icon="hashtag" /> Progarrming Skills</h4>
+
+                            <div className="programming-skill-1">
+                                <p>
+                                    <span><strong>Expertise :</strong> JavaScript, REST API, ES6, React.js  Mongodb, Bootstrap4, HTML5, CSS3</span>
+                                </p>
+                            </div>
+                            <div className="programming-skill-2">
+                                <p>
+                                    <span>
+                                       <strong> Comfortable :</strong> Material UI, MongoDB, JSON, SASS
+                        </span>
+                                </p>
+                            </div>
+                            <div className="programming-skill-3">
+                                <p>
+                                    <span>
+                                       <strong> Familiar :</strong> Redux.js, GraphQL, TypeScript, Laravel, jQuery, AJAX
+                        </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

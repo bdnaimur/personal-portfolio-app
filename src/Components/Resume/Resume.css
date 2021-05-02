@@ -1,0 +1,28 @@
+.resume-container{
+    background-image: url('../../media/images/resumeBG.jpg');
+    /* height: 800px; */
+    /* width: 100%; */
+    background-size: cover;
+}
+.resume-middle{
+    background-color: rgb(166, 147, 211);
+    opacity: .3;
+}
+.text-align{
+    text-align: center;
+}
+.color{
+    color: rgb(87, 85, 199);
+}
+.skill ul{
+    list-style: none;
+    text-shadow: 3px 3px 10px lightgray;
+    color: rgb(72, 99, 116);
+    font-weight: 500;
+}
+.darkGreen{
+    color: darkgreen;
+}
+.working-section{
+    margin-top: 100px;
+}

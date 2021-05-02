@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../media/images/test2.png'
+import img2 from '../../media/images/test2.png'
 import Footer from '../Footer/Footer';
 import Header from '../Home/Header/Header'
 const About = () => {
@@ -8,6 +8,7 @@ const About = () => {
             <Header/>
             
             <div className="container mt-5">
+                
                 <div className="row">
                     <div className="col-md-5 mt-5">
                         <h4 className="text-secondary">
@@ -19,7 +20,7 @@ const About = () => {
                         
                     </div>                    
                     <div className="col-md-5 ">
-                        <img style={{width:"600px"}} src={img} alt=""/>
+                        <img style={{width:"600px"}} src={img2} alt=""/>
                     </div> 
                 </div>
                 

@@ -4,7 +4,7 @@ import Header from '../Home/Header/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Resume = () => {
     return (
-        <div className="resume-container">
+        <div className="resume-container bg-white">
             <Header />
             <div className="text-align">
                 <button className="btn btn-danger text-align"><a target="_blank" href="https://drive.google.com/file/d/1dt271vOquMXx8cB0W6by2oqkiKBclxdX/view?usp=sharing">Download CV</a></button>

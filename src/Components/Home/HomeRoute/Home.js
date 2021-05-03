@@ -8,6 +8,7 @@ import Testimonials from './Testmonials/Testimonials';
 import About from '../../About/About'
 // import ProgressBar from "@ramonak/react-progress-bar";
 import './Home.css'
+import Animation from '../../Animation/Animation';
 const testData = [
     { bgcolor: "#6a1b9a", completed: 80, name:"Javascript" },
     { bgcolor: "#00695c", completed: 60, name: "Node" },
@@ -19,10 +20,12 @@ const Home = () => {
             <Header/>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
-                            <h2 className="text-animation" style={{color:"chocolate", marginTop:"100px", fontSize:"50px"}}>
-                                HI! I am a Fullstack <br/> <span style={{color:"tomato"}}>Webdeveloper</span>
-                            </h2>
+                        <div className="col-md-6"  style={{ marginTop:"100px"}}>
+                            {/* <h2 className="text-animation" style={{color:"chocolate", marginTop:"100px", fontSize:"50px"}}>
+                                Hi! I am a <br/>  */}
+                                {/* <span style={{color:"tomato"}}>Webdeveloper</span> */}
+                                <Animation></Animation>
+                            
                             <button className="btn btn-danger text-align"><a target="_blank" href="https://drive.google.com/file/d/1dt271vOquMXx8cB0W6by2oqkiKBclxdX/view?usp=sharing">Download CV</a></button>
                         </div>
                         <div className="col-md-6">

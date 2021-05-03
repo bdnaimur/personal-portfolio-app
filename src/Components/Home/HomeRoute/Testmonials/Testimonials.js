@@ -4,6 +4,7 @@ import './Testimonials.css';
 import wilson from '../../../../media/images/wilson.png';
 import ema from '../../../../media/images/ema.png';
 import aliza from '../../../../media/images/aliza.png';
+import ScrollReveal from 'scrollreveal'
 
 const testimonialData = [
     {
@@ -27,13 +28,24 @@ const testimonialData = [
 ]
 
 const Testimonials = () => {
+  
+    // var slideUp = {
+    //     distance: '300%',
+    //     origin: 'top',
+    //     opacity: '.7',
+    //     duration: 2000
+    // };
+    // const myFunction = () =>{
+    //     setInterval(function(){ ScrollReveal().reveal('.testmonials-sildeUp', slideUp ); }, 3000);
+    // }
+    // myFunction();
     return (
        <section className="testimonials my-5 py-5">
            <div className="container">
                <div className="section-header">
                    <h1>What Our Clients Think</h1>
                </div>
-               <div className="card-deck mt-5">
+               <div className="card-deck mt-5 testmonials-sildeUp">
                     {
                         testimonialData.map(testimonial => <Testimonial testimonial={testimonial} key={testimonial.name}/>)
                     }

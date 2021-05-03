@@ -3,10 +3,29 @@ import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'
 
+import ScrollReveal from 'scrollreveal'
 const Header = () => {
+    var slideUp = {
+        distance: '100px',
+        origin: 'top',
+        opacity: '.7',
+        duration: 3000
+    };
+    ScrollReveal().reveal('.nav-item', slideUp );
+    
+    // var slideUp = {
+    //     distance: '300%',
+    //     origin: 'top',
+    //     opacity: '.7',
+    //     duration: 2000
+    // };
+    // const myFunction = () =>{
+    //     setInterval(function(){ ScrollReveal().reveal('.nav-item', slideUp ); }, 3000);
+    // }
+    // myFunction();
     const cpName = {
         fontWeight : "700",
-        color: "darkGreen",
+        color: "tomato",
         marginTop: "20px",
         textShadow: "2px 2px 5px lightGray"
     }
@@ -27,22 +46,22 @@ const Header = () => {
                         <ul class="navbar-nav m-auto fw-bold">
                             <li class="nav-item">
                                 {/* <a class="nav-link" aria-current="page" href="/home">Home</a> */}
-                                <Link class="nav-link" to="/home">Home</Link>
+                                <Link class="nav-link text-white" to="/home">Home</Link>
                             </li>
                             <li class="nav-item">
                                 {/* <a class="nav-link" href="/orders">Orders</a> */}
-                                <Link class="nav-link" to="/Blog">Blog</Link>
+                                <Link class="nav-link text-white" to="/Blog">Blog</Link>
                             </li><li class="nav-item">
                                 {/* <a class="nav-link" href="/orders">Orders</a> */}
-                                <Link class="nav-link" to="/about">About Me</Link>
+                                <Link class="nav-link text-white" to="/about">About Me</Link>
                             </li>
                             <li class="nav-item">
                                 {/* <a class="nav-link" href="/deals">Deals</a> */}
-                                <Link class="nav-link " to="/project">Projects</Link>
+                                <Link class="nav-link text-white " to="/project">Projects</Link>
                             </li>
                             <li class="nav-item">
                                 {/* <a class="nav-link" href="/deals">Deals</a> */}
-                                <Link class="nav-link " to="/resume">Resume</Link>
+                                <Link class="nav-link text-white" to="/resume">Resume</Link>
                             </li>
                         </ul>
                     </div>

@@ -43,7 +43,7 @@ const Testimonials = () => {
        <section className="testimonials my-5 py-5">
            <div className="container">
                <div className="section-header">
-                   <h1>What Our Clients Think</h1>
+                   <h1 className="text-light">What Our Clients Think</h1>
                </div>
                <div className="card-deck mt-5 testmonials-sildeUp">
                     {

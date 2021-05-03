@@ -21,8 +21,9 @@ const Projects = () => {
                     <h5 class="card-title">Shoe Project</h5>
                     <p class="card-text">This app allows the users to buy shoes for travelling to any destination where he may login system is vailable and the app hwlp the user to find the convenient way to find any destination within the reasonable price.</p>
                     </div>
-                    <div class="card-footer">
-                    <button className="btn btn-warning w-100">Details</button>
+                    <div class="card-footer d-flex">
+                    <button className="btn btn-warning ml-3 mr-5"><a className="text-white" target="_blank" href="https://fire-authentication-e06b5.web.app/">Visit</a></button>
+                    <button className="btn btn-primary ml-5"><a className="text-white" target="_blank" href="https://github.com/Porgramming-Hero-web-course/full-stack-client-bdnaimur">Code</a></button>
                     </div>
                 </div>
                 <div class="card">
@@ -31,8 +32,9 @@ const Projects = () => {
                     <h5 class="card-title">Discover Fly</h5>
                     <p class="card-text">This app allows the users to book a flight for travelling to any destination where he may login system is vailable and the app hwlp the user to find the convenient way to find any destination within the reasonable price.</p>
                     </div>
-                    <div class="card-footer">
-                    <button className="btn btn-warning w-100">Details</button>
+                    <div class="card-footer d-flex">
+                    <button className="btn btn-warning ml-3 mr-5"><a className="text-white" target="_blank" href="https://fire-authentication-e06b5.web.app/">Visit</a></button>
+                    <button className="btn btn-primary ml-5"><a className="text-white" target="_blank" href="https://github.com/Porgramming-Hero-web-course/full-stack-client-bdnaimur">Code</a></button>
                     </div>
                 </div>
                 <div class="card">
@@ -41,8 +43,9 @@ const Projects = () => {
                     <h5 class="card-title">Testy Pitha App</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
-                    <div class="card-footer">
-                    <button className="btn btn-warning w-100">Details</button>
+                    <div class="card-footer d-flex">
+                    <button className="btn btn-warning ml-3 mr-5"><a className="text-white" target="_blank" href="https://fire-authentication-e06b5.web.app/">Visit</a></button>
+                    <button className="btn btn-primary ml-5"><a className="text-white" target="_blank" href="https://github.com/Porgramming-Hero-web-course/full-stack-client-bdnaimur">Code</a></button>
                     </div>
                 </div>
             </div>

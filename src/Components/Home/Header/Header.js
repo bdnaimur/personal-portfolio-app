@@ -9,7 +9,8 @@ const Header = () => {
         distance: '100px',
         origin: 'top',
         opacity: '.7',
-        duration: 3000
+        duration: 3000,
+        reset: true
     };
     ScrollReveal().reveal('.nav-item', slideUp );
     

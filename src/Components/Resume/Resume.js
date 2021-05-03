@@ -2,6 +2,7 @@ import React from 'react';
 import './Resume.css';
 import Header from '../Home/Header/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Footer from '../Footer/Footer';
 const Resume = () => {
     return (
         <div className="resume-container bg-white">
@@ -94,6 +95,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div >
     );
 };
